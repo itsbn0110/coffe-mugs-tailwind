@@ -4,7 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "light-coffe": "#C89f94",
+        coffe: {
+          50: "#e8d6d8",
+          200: "#C89F94",
+          400: "#A25f4d",
+          600: "#744838",
+        },
       },
       fontFamily: {
         Karla: ["Karla", "sans-serif"],
@@ -17,6 +22,9 @@ module.exports = {
       },
       animation: {
         slideDown: "slideDown .4s ease-in-out",
+      },
+      backgroundImage: {
+        "slider-bg": "url('./img/slider-bg.jpg')",
       },
     },
   },
